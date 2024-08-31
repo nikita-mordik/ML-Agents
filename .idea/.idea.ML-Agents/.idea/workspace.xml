@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96d0408b-7641-4f27-a229-6a773770fe1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Avoidables/AvoidableObstacleController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Avoidables/AvoidableObstacleController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Avoidables/AvoidablesSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Avoidables/AvoidablesSpawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameBootstrapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameBootstrapper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PrefabPoolingService/PoolInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PrefabPoolingService/PoolInfo.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ML-Agents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ML-Agents/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Avoidable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Avoidable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TrainingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TrainingScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +24,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@2.2.1-exp.1/Runtime/Sensors/ObservationSpec.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ml-agents@2.2.1-exp.1/Runtime/Sensors/ObservationWriter.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -109,13 +102,24 @@
       <workItem from="1724616104145" duration="2504000" />
       <workItem from="1724703380024" duration="2561000" />
       <workItem from="1724883641519" duration="2999000" />
-      <workItem from="1724968803016" duration="4624000" />
+      <workItem from="1724968803016" duration="4858000" />
+      <workItem from="1725145356312" duration="331000" />
     </task>
+    <task id="LOCAL-00001" summary="Create own ML Agent model. Create script for avoidable agent. Create pool service pattern. Create ServiceLocator pattern script.">
+      <option name="closed" value="true" />
+      <created>1724973588937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724973588937</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
@@ -125,5 +129,7 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Create own ML Agent model. Create script for avoidable agent. Create pool service pattern. Create ServiceLocator pattern script." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create own ML Agent model. Create script for avoidable agent. Create pool service pattern. Create ServiceLocator pattern script." />
   </component>
 </project>
